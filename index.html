@@ -208,7 +208,7 @@
         <div class="policy-card">
 
             <div class="updated">
-                Last Updated: August 21, 2026
+                Last Updated: October 8, 2026
             </div>
 
             <section>
@@ -221,8 +221,17 @@
                 <p>
                     <strong>Location Data:</strong>
                     Your device's location information is used to calculate prayer
-                    times and determine the Qibla direction. Location data is
-                    processed only on your device and is not sent to our servers.
+                    times and determine the Qibla direction. Precise location (GPS)
+                    is processed only on your device; only approximate,
+                    city/district-level location is sent to prayer-times servers
+                    to fetch official prayer times.
+                </p>
+
+                <p>
+                    <strong>Advertising ID:</strong>
+                    The Google AdMob SDK uses your device's advertising ID to
+                    serve ads in the app. This is standard operation of Google's
+                    advertising services.
                 </p>
             </section>
 
@@ -238,6 +247,8 @@
                     <li>Calculating prayer times according to your location</li>
                     <li>Determining the Qibla direction</li>
                     <li>Setting prayer time reminders</li>
+                    <li>Playing adhan audio at prayer times</li>
+                    <li>Displaying ads via Google AdMob</li>
                 </ul>
             </section>
 
@@ -245,9 +256,25 @@
                 <h2>3. Data Sharing</h2>
 
                 <p>
-                    NamazVaktim Pro does not share, sell, rent, or otherwise
-                    disclose your personal data to third parties.
+                    NamazVaktim Pro does not sell or rent your personal data.
+                    However, the following sharing is required for the app to function:
                 </p>
+
+                <ul>
+                    <li>
+                        <strong>Google AdMob:</strong>
+                        Your advertising ID is shared with Google to display ads.
+                        See the
+                        <a class="email" href="https://policies.google.com/privacy">Google Privacy Policy</a>
+                        for details.
+                    </li>
+                    <li>
+                        <strong>Prayer Times Servers:</strong>
+                        City/district-level location is sent to prayer-times APIs
+                        to fetch official prayer times. Your precise GPS
+                        coordinates are never sent.
+                    </li>
+                </ul>
             </section>
 
             <section>
@@ -269,8 +296,10 @@
 
                 <p>
                     The data used by NamazVaktim Pro is processed securely on
-                    your device. Location data is not transmitted over the
-                    internet and is not stored on third-party servers.
+                    your device. Data sent over the internet (approximate
+                    location for prayer times, advertising ID for ads) contains
+                    no personally identifying information and is transmitted
+                    over encrypted (HTTPS) connections.
                 </p>
             </section>
 
